@@ -1,0 +1,116 @@
+*{
+    padding: auto;
+    margin: 0%;
+}
+.container{
+    display: flex;
+    background-color: rgb(144, 14, 188);
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px 5px;
+    
+}
+
+.search{
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.inp{
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.jokehead{
+    width: 650px;
+    height: 80px;
+    top: 730px;
+    margin: 90px 420px ;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.select{
+    margin: 100px 650px;
+    height: 70px;
+    width: 170px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color:rgb(214, 34, 235) ;
+    font-weight: 700;
+    color: white;
+    font-size: medium;
+}
+.select:hover{
+    background-color: rgb(195, 20, 239);
+    
+}
+@media only screen and (max-width: 600px) {
+    *{
+        padding: auto;
+        margin: 0%;
+    }
+    .container{
+        display: flex;
+        background-color: rgb(144, 14, 188);
+        align-items: center;
+        border-radius: 15px;
+        padding: 5px 5px;
+        
+        
+    }
+    
+    .search{
+        width: 40%;
+        height: 50px;
+        background-color: white;
+        border-radius: 15px;
+        margin: 20px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .inp{
+        width: 95%;
+        height: 95%;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+    }
+    .jokehead{
+        width: 400px;
+        height: 80px;
+        top: 70px;
+        margin: 90px 100px ;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    .select{
+        margin: 70px 190px;
+        height: 70px;
+        width: 170px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        background-color:rgb(214, 34, 235) ;
+        font-weight: 700;
+        color: white;
+        font-size: medium;
+    }
+    .select:hover{
+        background-color: rgb(195, 20, 239);
+        
+    }
+  }
